@@ -18,7 +18,7 @@ export default defineComponent({
         </h2>
 
         <div class="cart__empty" v-if="cartStore.items.length === 0">
-            <img src="@/assets/images/illustration-empty-cart.svg" alt="Empty cart illustration">
+            <img src="/images/illustration-empty-cart.svg" alt="Empty cart illustration">
             <p class="empty__cart">Your cart is empty</p>
         </div>
 
@@ -38,7 +38,7 @@ export default defineComponent({
                     </div>
 
                     <button class="item__remove" @click="cartStore.removeItem(item.name)">
-                        <img src="@/assets/images/icon-remove-item.svg" alt="Remove item">
+                        <img src="/images/icon-remove-item.svg" alt="Remove item">
                     </button>
                 </li>
             </ul>
@@ -49,7 +49,7 @@ export default defineComponent({
             </div>
 
             <p class="message__order">
-                <img src="@/assets/images/icon-carbon-neutral.svg" alt="Carbon neutral delivery">
+                <img src="/images/icon-carbon-neutral.svg" alt="Carbon neutral delivery">
                 <span>
                     This is a <strong>carbon-neutral</strong> delivery
                 </span>

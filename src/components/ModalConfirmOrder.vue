@@ -21,7 +21,7 @@ export default {
 <template>
     <div class="modal__overlay" @click="handleOverlayClick">
         <div class="modal" @click.stop>
-            <img src="@/assets/images/icon-order-confirmed.svg" alt="Order confirmed" class="modal__icon">
+            <img src="/images/icon-order-confirmed.svg" alt="Order confirmed" class="modal__icon">
 
             <h2 class="modal__title">Order Confirmed!</h2>
             <p class="modal__subtitle">We hope you enjoy your food!</p>
@@ -29,7 +29,7 @@ export default {
             <ul class="cart__list">
                 <li v-for="item in cartStore.items" :key="item.name" class="cart__item">
                     <div class="item__left">
-                        <img :src="`../src/assets/images/${item.image}`" alt="Image {{ item.name }}"
+                        <img :src="`/images/${item.image}`" alt="Image {{ item.name }}"
                             class="item__image">
 
                         <div>

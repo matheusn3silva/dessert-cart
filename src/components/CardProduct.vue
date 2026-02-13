@@ -37,17 +37,17 @@ export default defineComponent({
 </script>
 
 <template>
-    <div :class="['card']">
+    <div class="card">
         <div class="card__image">
             <img 
-                :src="`../src/assets/images/${image}`" 
+                :src="`/images/${image}`" 
                 :alt="`Image ${name}`" 
                 :class="[{ active: inCart }]"
             />
 
             <div class="card__action">
                 <button v-if="!inCart" @click="addCart">
-                    <img class="button__icon__add__cart" src="@/assets/images/icon-add-to-cart.svg" alt="Icon Add to Cart" />
+                    <img class="button__icon__add__cart" src="/images/icon-add-to-cart.svg" alt="Icon Add to Cart" />
                     Add to Cart
                 </button>
 
