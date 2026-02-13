@@ -64,7 +64,7 @@ export default defineComponent({
         </div>
         <div class="card__info">
             <p class="category">{{ category }}</p>
-            <h3>{{ name }}</h3>
+            <h2>{{ name }}</h2>
             <p class="price">${{ price.toFixed(2) }}</p>
         </div>
     </div>
