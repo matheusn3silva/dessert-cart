@@ -1,42 +1,49 @@
-# vue-project
+# Frontend Mentor - Product list with cart solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Product list with cart challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
+## Overview
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### The challenge
 
-## Recommended Browser Setup
+Users should be able to:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Add items to the cart and remove them
+- Increase/decrease the number of items in the cart
+- See an order confirmation modal when they click "Confirm Order"
+- Reset their selections when they click "Start New Order"
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-## Type Support for `.vue` Imports in TS
+### Screenshot
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+![](./public/screenshot.png)
 
-## Customize configuration
+### Links
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Solution URL: [Repository]([https://your-solution-url.com](https://github.com/matheusn3silva/dessert-cart))
+- Live Site URL: [Deploy](https://your-live-site-url.com](https://dessert-cart-six.vercel.app/))
 
-## Project Setup
+## My process
 
-```sh
-npm install
-```
+### Built with
 
-### Compile and Hot-Reload for Development
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Vue.js](https://vuejs.org/) - JS library
 
-```sh
-npm run dev
-```
+### What I learned
 
-### Type-Check, Compile and Minify for Production
+- Learned how to use global stores for state management across components.
+- Created a gist for dynamic JSON import.
+- Practiced TypeScript interface implementation.
 
-```sh
-npm run build
-```
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/matheusn3silva)
+- Linkedin - [@Manasi](https://www.linkedin.com/in/matheusnsilva)
+
