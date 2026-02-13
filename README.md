@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository]([https://your-solution-url.com](https://github.com/matheusn3silva/dessert-cart))
-- Live Site URL: [Deploy](https://your-live-site-url.com](https://dessert-cart-six.vercel.app/))
+- Solution URL: [Repository](https://github.com/matheusn3silva/dessert-cart)
+- Live Site URL: [Deploy](https://dessert-cart-six.vercel.app)
 
 ## My process
 
